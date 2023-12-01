@@ -19,6 +19,10 @@
 		{
 			"Name": "HttpBlueprint",
 			"Enabled": true
+		},
+		{
+			"Name": "CommonUI",
+			"Enabled": true
 		}
 	]
 }
