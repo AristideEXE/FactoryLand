@@ -14,5 +14,6 @@ class FACTORYLAND_API UFactoryLandFunctionLibrary : public UBlueprintFunctionLib
 {
 	GENERATED_BODY()
 		UFUNCTION(BlueprintCallable, Category = "Hash")
+		// Generate the hash of a seed
 		static int Hash(const FString& seed);
 };
